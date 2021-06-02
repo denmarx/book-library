@@ -1,0 +1,110 @@
+:root {
+  --header: #90e0ef;
+  --button: #caf0f8;
+  --card: #caf0f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 50%;
+  line-height: 1.6;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  width: 100vw;
+  height: 5vh;
+  padding: 2rem;
+  background-color: var(--header);
+}
+
+h2 {
+  text-align: center;
+}
+
+#main {
+  width: 100vw;
+  text-align: center;
+}
+
+.btn-show-form {
+  margin: 3rem 0;
+  padding: 1.5% 3%;
+  background-color: var(--button);
+}
+
+.pop-up {
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  width: 20%;
+  margin: 2rem auto;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+}
+
+.pop-up-active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.form {
+  background-color: var(--card);
+}
+
+.form-input {
+}
+
+.form-checkbox {
+}
+
+#submit-btn {
+  background-color: #fff;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.div-grid {
+  border-style: solid;
+  background-color: aliceblue;
+}
+
+.card-title {
+}
+
+.card-author {
+}
+
+.card-pages {
+}
+
+/* Buttons */
+
+.button {
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid #666;
+}
+
+.card-readBtn {
+  background-color: lightgreen;
+}
+
+.card-removeBtn {
+  background-color: lightcoral;
+}
